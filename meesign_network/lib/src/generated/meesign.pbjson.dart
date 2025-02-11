@@ -20,6 +20,7 @@ const ProtocolType$json = {
     {'1': 'GG18', '2': 0},
     {'1': 'ELGAMAL', '2': 1},
     {'1': 'FROST', '2': 2},
+    {'1': 'MUSIG2', '2': 3},
   ],
 };
 
