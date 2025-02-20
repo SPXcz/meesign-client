@@ -84,7 +84,7 @@ class _CardReaderPageState extends State<CardReaderPage> {
       setStatus(ReaderOkStatus.working);
 
       try {
-        await widget.onCard(card);
+        await widget.onCard(card); // Here is the problem
         Navigator.pop(context);
       } finally {
         await card.disconnect();
